@@ -1,9 +1,11 @@
-API_KEY = "AIzaSyB1duIkhY6t032IpNTGGzQQ9vngA2ihE_g"
+import streamlit as st
+
+API_KEY = st.secrets["API_KEY"]
 
 DB_CONFIG = {
-    "host": "db.xcqkcjvrawrorjnsgeew.supabase.co",
-    "database": "postgres",
-    "user": "postgres",
-    "password": "lUyPEvZ6rOFtrSJA",
-    "port": 5432
+    "host": st.secrets["DB_HOST"],
+    "database": st.secrets["DB_NAME"],
+    "user": st.secrets["DB_USER"],
+    "password": st.secrets["DB_PASS"],
+    "port": st.secrets["DB_PORT"]
 }
