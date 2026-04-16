@@ -1,0 +1,322 @@
+{
+    "dim_video": [
+        {
+            "video_id": "i2KaSPSFPc4",
+            "title": "jangan jadi data analyst!",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "published_at": "2026-04-13T09:30:32Z"
+        }
+    ],
+    "dim_channel": [
+        {
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "channel_name": "halotech academy"
+        }
+    ],
+    "dim_author": [
+        {
+            "author_id": "UC00V7CZIMWcTmWh8Ek7RNBg",
+            "author_name": "@fikrifauzannajib6292"
+        },
+        {
+            "author_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_name": "@halotechacademy"
+        },
+        {
+            "author_id": "UC8f5_nrimRuAwqBl89ZFDKg",
+            "author_name": "@prayernotexist"
+        },
+        {
+            "author_id": "UCTLF-TexQTkc_Wkd-swf2Xg",
+            "author_name": "@cepydoang226"
+        },
+        {
+            "author_id": "UCiRUuEJtZfYkkBkEMoQOFSA",
+            "author_name": "@mariniindriyani8929"
+        },
+        {
+            "author_id": "UCXE1M3A1dKVjiEWjlsHJ2yA",
+            "author_name": "@muhammadnaufalhaykal120"
+        },
+        {
+            "author_id": "UCN4cvsEOz1_SxtaFSd_r40g",
+            "author_name": "@adhystiraraihan8967"
+        },
+        {
+            "author_id": "UCKM8onXBbheJIW8XLiYOSnw",
+            "author_name": "@bnaril-pl8iz"
+        },
+        {
+            "author_id": "UCGctsY5f4N522e1gnCNNV0w",
+            "author_name": "@obah_mangan"
+        },
+        {
+            "author_id": "UCoyNHXXhuTeM1DYX2RUYtUw",
+            "author_name": "@eqbalraihan7542"
+        },
+        {
+            "author_id": "UCXdcia4Dycl4Efms2YHZxaQ",
+            "author_name": "@davidnuryanto2940"
+        },
+        {
+            "author_id": "UCBwlUkVfaOVU4NTn3SxM6Hw",
+            "author_name": "@fallrazz"
+        },
+        {
+            "author_id": "UCCmYQh2J2o4eNxWNH0kekUA",
+            "author_name": "@kikir1717"
+        }
+    ],
+    "dim_date": [
+        {
+            "date_id": "20260414",
+            "date": "2026-04-14",
+            "year": 2026,
+            "month": 4,
+            "day": 14
+        },
+        {
+            "date_id": "20260413",
+            "date": "2026-04-13",
+            "year": 2026,
+            "month": 4,
+            "day": 13
+        }
+    ],
+    "fact_comments": [
+        {
+            "comment_id": "Ugw7j6T5kxukG4MIpQN4AaABAg",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC00V7CZIMWcTmWh8Ek7RNBg",
+            "date_id": "20260414",
+            "like_count": 4,
+            "text": "tumbuhan tumbuh karena kena sinar matahari seharian udah gede dan tinggi malah kena angin gede pisau tajam pun ditempa terusterusa hasilnya tumbuhan bisa menghasilkan buah pisau tajam bisa membantu pekerjaan lebih mudah intinya tantangan gede maka usaha pun harus gede dan hasilnya juga bisa gede harus berani tumbuh sih semua kerjaan ada resikonya tpi apakah bisa menerima resiko tersebut selama punya motivasi keahlian kemauan apalagi ditambah dengan niat ibadah membantu atau memberi nafkah keluarga semua resiko itu pasti bisa diterima"
+        },
+        {
+            "comment_id": "Ugw7j6T5kxukG4MIpQN4AaABAg.AVZZYHbrNV9AV_Epofj327",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "date_id": "20260414",
+            "like_count": 0,
+            "text": "masyaallah mantaap sekali commentnya bener bangeet yaa semangaat terus pokok nya izin pin comment nya yaa"
+        },
+        {
+            "comment_id": "Ugxquvvv3ya7HdHzU814AaABAg",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC8f5_nrimRuAwqBl89ZFDKg",
+            "date_id": "20260414",
+            "like_count": 0,
+            "text": "jadi data analystdata scientist kuncinya trial error practice cleaning eksplor terusterusan sampe khatam wkwk gabisa tbtb bootcamp lgsg jago kl gak kena semprot blm jadi da wkwk"
+        },
+        {
+            "comment_id": "Ugzn7eE7OdY-m0xgC5h4AaABAg",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCTLF-TexQTkc_Wkd-swf2Xg",
+            "date_id": "20260414",
+            "like_count": 0,
+            "text": "banyak banget emang ad hoc nya makanya gua bikin aturan permintaan min h1 karena gua bukan ai"
+        },
+        {
+            "comment_id": "UgzVIAScWuwIkvJczEp4AaABAg",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCiRUuEJtZfYkkBkEMoQOFSA",
+            "date_id": "20260414",
+            "like_count": 2,
+            "text": "lagi nyicil e learning data analis sambil kuliah eh koq ini muncul jadi lanjut apa nggak"
+        },
+        {
+            "comment_id": "UgzVIAScWuwIkvJczEp4AaABAg.AVZtoStZ-ydAV_EY8nHIkh",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "date_id": "20260414",
+            "like_count": 0,
+            "text": "lanjuuut doong data analyst tetep salah satu kerjaan yang oke kok untuk kamu di masa depan juga"
+        },
+        {
+            "comment_id": "Ugy82_SoaDmNdQp9ocx4AaABAg",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCXE1M3A1dKVjiEWjlsHJ2yA",
+            "date_id": "20260414",
+            "like_count": 1,
+            "text": "berarti selain data analisis aman yak"
+        },
+        {
+            "comment_id": "Ugy82_SoaDmNdQp9ocx4AaABAg.AVZrSY8JhUDAV_Ea9MYi6x",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "date_id": "20260414",
+            "like_count": 0,
+            "text": "aman2 aja kok ada opsi apalagi tuuh ka"
+        },
+        {
+            "comment_id": "Ugy82_SoaDmNdQp9ocx4AaABAg.AVZrSY8JhUDAV_JPtDWxAz",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCXE1M3A1dKVjiEWjlsHJ2yA",
+            "date_id": "20260414",
+            "like_count": 0,
+            "text": "ds mungkin atau bi"
+        },
+        {
+            "comment_id": "Ugw1_XnszmmddK8UJk14AaABAg",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCN4cvsEOz1_SxtaFSd_r40g",
+            "date_id": "20260413",
+            "like_count": 1,
+            "text": "gw freshgrad jurusan ds belajar da tuh isinya full statistik gw klo ditanya org aja blg jurusan apa kuliahnya gw jawab statistik terus 1 lgi bener itu sebagian buanyak banget isinya ngeberesin datanya jink"
+        },
+        {
+            "comment_id": "Ugw1_XnszmmddK8UJk14AaABAg.AVYBnHYgfKXAVYDS_qr1og",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "date_id": "20260413",
+            "like_count": 0,
+            "text": "anda sudah di jalan yang benar wkkw"
+        },
+        {
+            "comment_id": "Ugw9QtUzYoO-8J2-pQ14AaABAg",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCKM8onXBbheJIW8XLiYOSnw",
+            "date_id": "20260413",
+            "like_count": 1,
+            "text": "gua udh daftar pelatihan dari lu bang"
+        },
+        {
+            "comment_id": "Ugw9QtUzYoO-8J2-pQ14AaABAg.AVXxXFh0-1wAVXzdMWXtPu",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "date_id": "20260413",
+            "like_count": 1,
+            "text": "terima kasih bang semoga nanti pelatihannya lancar bermanfaat dan bisa dipakai di dunia pekerjaan yang diinginkan kedepannya"
+        },
+        {
+            "comment_id": "Ugw9QtUzYoO-8J2-pQ14AaABAg.AVXxXFh0-1wAVYMDNA_qCC",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCKM8onXBbheJIW8XLiYOSnw",
+            "date_id": "20260413",
+            "like_count": 0,
+            "text": "bang"
+        },
+        {
+            "comment_id": "UgyrjBo7ap28UyB7chl4AaABAg",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCGctsY5f4N522e1gnCNNV0w",
+            "date_id": "20260413",
+            "like_count": 3,
+            "text": "bener banget brother aku pernah diposisi seperti itu permintahan adhoc nya tinggi dan datelinenya ketat sampai pernah dikatain sama atasanku kamu kerjanya tidur krn ga bisa menunjukkan planning pekerjaan yg akan dikerjakan krn terdistruct sama pekerjaan adhoc"
+        },
+        {
+            "comment_id": "UgyrjBo7ap28UyB7chl4AaABAg.AVXuJjQAE0eAVYDipYDRwT",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "date_id": "20260413",
+            "like_count": 0,
+            "text": "wkwk harus sering ngobrol sama manager mungkin kita juga set up fokus time gtu jadi ketika waktu tertentu nggk bisa nerima adhock semangat brother"
+        },
+        {
+            "comment_id": "UgyrjBo7ap28UyB7chl4AaABAg.AVXuJjQAE0eAVZTd56_X7c",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCoyNHXXhuTeM1DYX2RUYtUw",
+            "date_id": "20260414",
+            "like_count": 1,
+            "text": "adhoc disini itu apa bang saya gk paham"
+        },
+        {
+            "comment_id": "UgyrjBo7ap28UyB7chl4AaABAg.AVXuJjQAE0eAVZUhd_-D5J",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCGctsY5f4N522e1gnCNNV0w",
+            "date_id": "20260414",
+            "like_count": 0,
+            "text": "adhoc dalam konteks ini permintaan analysis report yang dibuat secara cepat untuk keperluan mendesak dan sifatnya tidak permanen singkatnya permintaan dadakan diluar planning"
+        },
+        {
+            "comment_id": "UgyrjBo7ap28UyB7chl4AaABAg.AVXuJjQAE0eAVZr_HkiWOD",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCXE1M3A1dKVjiEWjlsHJ2yA",
+            "date_id": "20260414",
+            "like_count": 0,
+            "text": "maybe"
+        },
+        {
+            "comment_id": "UgyrjBo7ap28UyB7chl4AaABAg.AVXuJjQAE0eAV_EzhjPVt-",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "date_id": "20260414",
+            "like_count": 0,
+            "text": "adhock itu kerjaan kecil2 dan mendadak contoh di case data analyst tiba2 di minta untuk ambil kan data penjualan bulan ini dari database"
+        },
+        {
+            "comment_id": "UgzPJEXVdq0E9TC6ACl4AaABAg",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCXdcia4Dycl4Efms2YHZxaQ",
+            "date_id": "20260413",
+            "like_count": 4,
+            "text": "ane lagi ngikutin playlist kursus ente bang waduh niatnya buat nyari yg bisa remote juga buat sambilan yaah karena udah terlanjur nyemplung mending ta lanjutin deh walau bingung dengan umur nanti pas resign dari kerjaan sekarang"
+        },
+        {
+            "comment_id": "UgzPJEXVdq0E9TC6ACl4AaABAg.AVXrghjJZNdAVYDaVcmBZh",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "date_id": "20260413",
+            "like_count": 0,
+            "text": "bukan nggk ada yang remote juga siih ada beberapa teman gua juga yang remote tapi jarang tergantung ke env perusahaannya juga"
+        },
+        {
+            "comment_id": "UgyxO0UwLlCS3ywkGcd4AaABAg",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCBwlUkVfaOVU4NTn3SxM6Hw",
+            "date_id": "20260413",
+            "like_count": 4,
+            "text": "terima kasih min atas tamparan kesadaran dan dorongan motivasinya"
+        },
+        {
+            "comment_id": "UgyxO0UwLlCS3ywkGcd4AaABAg.AVXoApA8pmjAVXzJ772q_G",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "date_id": "20260413",
+            "like_count": 0,
+            "text": "samasama kak semoga sadar dan bermanfaat ya kak"
+        },
+        {
+            "comment_id": "UgxkykSkMJd8nXJS3oN4AaABAg",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UCCmYQh2J2o4eNxWNH0kekUA",
+            "date_id": "20260413",
+            "like_count": 2,
+            "text": "pertama bang hehe"
+        },
+        {
+            "comment_id": "UgxkykSkMJd8nXJS3oN4AaABAg.AVXn82QIMYuAVYDnMP0gVI",
+            "video_id": "i2KaSPSFPc4",
+            "channel_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "author_id": "UC3abfTxNmYKy0U5HfOSL9Zw",
+            "date_id": "20260413",
+            "like_count": 0,
+            "text": "mantaap share juga yee"
+        }
+    ]
+}
