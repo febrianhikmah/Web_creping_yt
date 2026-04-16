@@ -6,11 +6,17 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import DB_CONFIG
 
 def load_to_db():
+    conn = None
+    cur = None
+
     try:
         conn = psycopg2.connect(**DB_CONFIG)
         cur = conn.cursor()
 
-        with open("data/processed/warehouse.json", "r", encoding="utf-8") as f:
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        file_path = os.path.join(base_dir, "data", "processed", "warehouse.json")
+
+        with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
         # =========================
@@ -72,15 +78,16 @@ def load_to_db():
             ))
 
         conn.commit()
-
         print("✅ Data berhasil di-load ke PostgreSQL!")
 
     except Exception as e:
-        print("❌ Error saat load ke database:", e)
-        
+        import traceback
+        print(traceback.format_exc())
+
     finally:
-        if conn:
+        if cur is not None:
             cur.close()
+        if conn is not None:
             conn.close()
 
 # if __name__ == "__main__":
