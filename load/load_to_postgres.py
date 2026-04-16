@@ -14,29 +14,29 @@ def load_to_db():
         # CONNECT DB
         conn = psycopg2.connect(**DB_CONFIG)
         cur = conn.cursor()
-        st.write("✅ CONNECTED TO DB")
+        # st.write("✅ CONNECTED TO DB")
 
         # CHECK DB INFO
         cur.execute("SELECT current_database(), current_user;")
-        st.write("DB INFO:", cur.fetchone())
+        # st.write("DB INFO:", cur.fetchone())
 
         # FILE PATH
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         file_path = os.path.join(base_dir, "data", "processed", "warehouse.json")
 
-        st.write("📂 FILE PATH:", file_path)
-        st.write("FILE EXISTS:", os.path.exists(file_path))
+        # st.write("📂 FILE PATH:", file_path)
+        # st.write("FILE EXISTS:", os.path.exists(file_path))
 
         # LOAD JSON
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        st.write("📊 DATA COUNT:")
-        st.write("dim_channel:", len(data["dim_channel"]))
-        st.write("dim_video:", len(data["dim_video"]))
-        st.write("dim_author:", len(data["dim_author"]))
-        st.write("dim_date:", len(data["dim_date"]))
-        st.write("fact_comments:", len(data["fact_comments"]))
+        # st.write("📊 DATA COUNT:")
+        # st.write("dim_channel:", len(data["dim_channel"]))
+        # st.write("dim_video:", len(data["dim_video"]))
+        # st.write("dim_author:", len(data["dim_author"]))
+        # st.write("dim_date:", len(data["dim_date"]))
+        # st.write("fact_comments:", len(data["fact_comments"]))
 
         # =========================
         # DIM CHANNEL
