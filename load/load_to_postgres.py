@@ -83,6 +83,6 @@ def load_to_db():
             cur.close()
             conn.close()
 
-if __name__ == "__main__":
-    print("🚀 Start loading to PostgreSQL...")
-    load_to_db()
+# if __name__ == "__main__":
+#     print("🚀 Start loading to PostgreSQL...")
+#     load_to_db()
