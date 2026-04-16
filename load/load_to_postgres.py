@@ -48,7 +48,7 @@ def load_to_db():
                 ON CONFLICT (channel_id) DO NOTHING
             """, (row["channel_id"], row["channel_name"]))
 
-        st.write("✅ DIM CHANNEL DONE")
+        # st.write("✅ DIM CHANNEL DONE")
 
         # =========================
         # DIM VIDEO
@@ -60,7 +60,7 @@ def load_to_db():
                 ON CONFLICT (video_id) DO NOTHING
             """, (row["video_id"], row["title"], row["channel_id"]))
 
-        st.write("✅ DIM VIDEO DONE")
+        # st.write("✅ DIM VIDEO DONE")
 
         # =========================
         # DIM AUTHOR
@@ -72,7 +72,7 @@ def load_to_db():
                 ON CONFLICT (author_id) DO NOTHING
             """, (row["author_id"], row["author_name"]))
 
-        st.write("✅ DIM AUTHOR DONE")
+        # st.write("✅ DIM AUTHOR DONE")
 
         # =========================
         # DIM DATE
@@ -84,7 +84,7 @@ def load_to_db():
                 ON CONFLICT (date_id) DO NOTHING
             """, (row["date_id"], row["date"]))
 
-        st.write("✅ DIM DATE DONE")
+        # st.write("✅ DIM DATE DONE")
 
         # =========================
         # FACT COMMENTS
@@ -104,7 +104,7 @@ def load_to_db():
                 row["like_count"]
             ))
 
-        st.write("✅ FACT COMMENTS DONE")
+        # st.write("✅ FACT COMMENTS DONE")
 
         # COMMIT
         conn.commit()
