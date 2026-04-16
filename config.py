@@ -7,5 +7,5 @@ DB_CONFIG = {
     "database": st.secrets["DB_NAME"],
     "user": st.secrets["DB_USER"],
     "password": st.secrets["DB_PASS"],
-    "port": st.secrets["DB_PORT"]
+    "port": int(st.secrets["DB_PORT"])
 }
