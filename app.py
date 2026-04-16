@@ -26,9 +26,11 @@ if st.button("Scrape") and url:
 
             # 🔥 TRANSFORM
             run_transform()
+            st.success("✅ Data berhasil diproses!")
+            
             load_to_db()
             
-        st.success("✅ Data berhasil diproses!")
+
 
         # 🔥 LOAD HASIL WAREHOUSE
         path = "data/processed/warehouse.json"
